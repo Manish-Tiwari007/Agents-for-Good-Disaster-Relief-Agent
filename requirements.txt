@@ -1,0 +1,28 @@
+# Disaster Relief Multi-Agent System Requirements
+# NOTE: Do NOT hardcode API keys. Set GOOGLE_API_KEY via environment before running.
+# Core Web Framework
+fastapi==0.115.0
+uvicorn==0.30.0
+
+# Data & Utilities
+pydantic>=2.12.4
+typing-extensions>=4.12.2
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.0
+seaborn==0.13.2
+networkx==3.3
+
+# Observability
+opentelemetry-api==1.25.0
+opentelemetry-sdk==1.25.0
+
+# LLM / Embeddings (optional heavy)
+sentence-transformers==2.7.0
+google-generativeai>=0.7.0
+streamlit==1.39.0
+requests==2.32.3
+
+# If running in constrained environment you can remove sentence-transformers.
+# Optional: python-dotenv for local env management
+# python-dotenv==1.0.1
